@@ -8,7 +8,7 @@ const form = document.getElementById('login-form');
     event.preventDefault();
     if (validateForm()) {
       alert('Form submitted successfully!');
-      // You can also submit the form using AJAX or other methods here
+    
     }
   });
 
@@ -66,3 +66,4 @@ const form = document.getElementById('login-form');
     confirmPasswordError.textContent = '';
     return true;
   }
+
