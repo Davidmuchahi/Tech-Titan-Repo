@@ -8,7 +8,11 @@ we are going to create a form that is used for to log in it a simple demo hope y
 Form and Input Elements:  This includes handling the form submission event, preventing the default form submission, and calling the validation functions for each input field.
 
 Email Validation: This includes defining the email regular expression, creating the validateEmail function, and calling this function when the email input is validated.
+
 Password Validation:   defining the password regular expression, creating the validatePassword function, and calling this function when the password input is validated.
+
 The css bit has already been assigned.
+
 Confirm Password Validation the approach is similar to the password validation ....
+
 Error Handling and Input Focus Event Handling
