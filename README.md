@@ -1,19 +1,22 @@
 # Tech-Titan-Repo
 
-# Assignment
-The assignment is to Create a form with validation and feedback messages for users.
+# Login Form Validation
+The assignment was to Create a form with validation and feedback messages for users.
 Use focus, blur, and submit events to validate form input and provide feedback to users in real-time.
+This was how we as a group approached the assignment.
+We Defined The functionioning of the form as defined below.
+# #Form Validation
+The form includes validation and feedback messages for the following it requires a valid email address a password which is set to 
+ba atleast six characters the confirm password field this input should be similar to the first password 
+The validateForm() function is called when the form is submitted, and it checks if all input fields are valid. If any field is invalid, it sets the isValid variable to false and returns it.
+### Event Listeners
+Event listeners were added to the form and input fields to handle focus, blur, and submit events. When the user focuses on an input field, the corresponding validation function is called. When the user blurs (leaves) an input field, the corresponding validation function is called again to check if the input is valid. When the form is submitted, the validateForm() function is called to check if all input fields are valid.
+### The styling of the Form
+A member had already come up with the styling based on a previous project which the group agreed to implement on the project the styles use are safe explanatory
+### In The script.js the Validation Functions are three Function:
+validateEmail(), validatePassword(), and validateConfirmPassword(). These functions check if the input is valid and set error messages if the input is invalid.
+### The Error messages.
+Error messages are displayed using the textContent property of HTML elements with the IDs email-error, password-error, and confirm-password-error. These error messages are cleared when the input is valid.
+  ### Stay Dangerous
 
-we are going to create a form that is used for to log in it a simple demo hope you guys contribute as much as possible this file will be updated after we are done
-### The Remaining duties on the assignment are as follow:
-Form and Input Elements:  This includes handling the form submission event, preventing the default form submission, and calling the validation functions for each input field.
 
-Email Validation: This includes defining the email regular expression, creating the validateEmail function, and calling this function when the email input is validated.
-
-Password Validation:   defining the password regular expression, creating the validatePassword function, and calling this function when the password input is validated.
-
-The css bit has already been assigned.
-
-Confirm Password Validation the approach is similar to the password validation ....
-
-Error Handling and Input Focus Event Handling
